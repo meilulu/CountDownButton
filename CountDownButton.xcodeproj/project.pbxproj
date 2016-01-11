@@ -15,6 +15,7 @@
 		967397031C4395A900CE4464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967397011C4395A900CE4464 /* LaunchScreen.storyboard */; };
 		9673970E1C4395AA00CE4464 /* CountDownButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9673970D1C4395AA00CE4464 /* CountDownButtonTests.m */; };
 		967397191C4395AA00CE4464 /* CountDownButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 967397181C4395AA00CE4464 /* CountDownButtonUITests.m */; };
+		967397281C4395CC00CE4464 /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 967397271C4395CC00CE4464 /* UIButton+CountDown.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		967397141C4395AA00CE4464 /* CountDownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountDownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		967397181C4395AA00CE4464 /* CountDownButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownButtonUITests.m; sourceTree = "<group>"; };
 		9673971A1C4395AA00CE4464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967397261C4395CC00CE4464 /* UIButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		967397271C4395CC00CE4464 /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		967396F21C4395A900CE4464 /* CountDownButton */ = {
 			isa = PBXGroup;
 			children = (
+				967397261C4395CC00CE4464 /* UIButton+CountDown.h */,
+				967397271C4395CC00CE4464 /* UIButton+CountDown.m */,
 				967396F61C4395A900CE4464 /* AppDelegate.h */,
 				967396F71C4395A900CE4464 /* AppDelegate.m */,
 				967396F91C4395A900CE4464 /* ViewController.h */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				967396FB1C4395A900CE4464 /* ViewController.m in Sources */,
+				967397281C4395CC00CE4464 /* UIButton+CountDown.m in Sources */,
 				967396F81C4395A900CE4464 /* AppDelegate.m in Sources */,
 				967396F51C4395A900CE4464 /* main.m in Sources */,
 			);
