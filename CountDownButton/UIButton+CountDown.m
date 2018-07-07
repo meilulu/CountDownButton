@@ -33,9 +33,11 @@
                 self.backgroundColor = color;
                 [self setTitle:[NSString stringWithFormat:@"%ld%@",timeOut,subTitle] forState:UIControlStateNormal];
                 self.userInteractionEnabled = NO;
+                timeOut--;
                 [self beginFontAnimation:self.titleLabel];
+                
             });
-            timeOut--;
+
         }
     });
     dispatch_resume(_timer);
